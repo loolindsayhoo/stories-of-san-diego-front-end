@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/stories-of-san-diego-front-end/static/css/main.3458f30c.chunk.css",
-    "main.js": "/stories-of-san-diego-front-end/static/js/main.47c6e26d.chunk.js",
-    "main.js.map": "/stories-of-san-diego-front-end/static/js/main.47c6e26d.chunk.js.map",
+    "main.js": "/stories-of-san-diego-front-end/static/js/main.7866f6ac.chunk.js",
+    "main.js.map": "/stories-of-san-diego-front-end/static/js/main.7866f6ac.chunk.js.map",
     "runtime-main.js": "/stories-of-san-diego-front-end/static/js/runtime-main.02c6e279.js",
     "runtime-main.js.map": "/stories-of-san-diego-front-end/static/js/runtime-main.02c6e279.js.map",
     "static/css/2.11d356fb.chunk.css": "/stories-of-san-diego-front-end/static/css/2.11d356fb.chunk.css",
-    "static/js/2.0b61ad5a.chunk.js": "/stories-of-san-diego-front-end/static/js/2.0b61ad5a.chunk.js",
-    "static/js/2.0b61ad5a.chunk.js.map": "/stories-of-san-diego-front-end/static/js/2.0b61ad5a.chunk.js.map",
+    "static/js/2.7476e8f3.chunk.js": "/stories-of-san-diego-front-end/static/js/2.7476e8f3.chunk.js",
+    "static/js/2.7476e8f3.chunk.js.map": "/stories-of-san-diego-front-end/static/js/2.7476e8f3.chunk.js.map",
     "index.html": "/stories-of-san-diego-front-end/index.html",
     "static/css/2.11d356fb.chunk.css.map": "/stories-of-san-diego-front-end/static/css/2.11d356fb.chunk.css.map",
     "static/css/main.3458f30c.chunk.css.map": "/stories-of-san-diego-front-end/static/css/main.3458f30c.chunk.css.map",
-    "static/js/2.0b61ad5a.chunk.js.LICENSE.txt": "/stories-of-san-diego-front-end/static/js/2.0b61ad5a.chunk.js.LICENSE.txt",
+    "static/js/2.7476e8f3.chunk.js.LICENSE.txt": "/stories-of-san-diego-front-end/static/js/2.7476e8f3.chunk.js.LICENSE.txt",
     "static/media/footer.css": "/stories-of-san-diego-front-end/static/media/SOSD.37dbcf47.svg",
     "static/media/SSD-full-01.be97043a.svg": "/stories-of-san-diego-front-end/static/media/SSD-full-01.be97043a.svg",
     "static/media/about.css": "/stories-of-san-diego-front-end/static/media/field.11c866ac.jpg",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.02c6e279.js",
     "static/css/2.11d356fb.chunk.css",
-    "static/js/2.0b61ad5a.chunk.js",
+    "static/js/2.7476e8f3.chunk.js",
     "static/css/main.3458f30c.chunk.css",
-    "static/js/main.47c6e26d.chunk.js"
+    "static/js/main.7866f6ac.chunk.js"
   ]
 }
