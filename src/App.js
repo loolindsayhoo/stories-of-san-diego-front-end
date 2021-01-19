@@ -1,5 +1,5 @@
 import "./css/App.css";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import { NavBar } from "./components/navbar/NavBar";
 import { About } from "./components/about/About";
@@ -25,28 +25,31 @@ function App() {
             {/* <div className="sharethis-inline-share-buttons">HERE</div> */}
 {/* !!!!!! IMPORTANT !!!!!! before pusing to github, comment out line 28 and uncomment line 30 */}
         {/* LOCAL ENVIRONMENT Development: */}
-            {/* <BrowserRouter > */}
+        <Router basename={process.env.PUBLIC_URL}>
         {/* GITHUB ENVIRONMENT: Github pages for hosting */}
-            <BrowserRouter basename={public.env.PUBLIC_URL} >
+            {/* <BrowserRouter basename={public.env.PUBLIC_URL} > */}
 {/* !!!!!! IMPORTANT !!!!!! before pusing to github, comment out line 28 and uncomment line 30 */}
                 <div className="navbar">
                     <NavBar />
                 </div>
-                <Route exact path="/" component={Home} />
-                <Route exact path="/stories" component={Stories} />
-                <Route exact path="/stories/:id" component={Story} />
-                <Route exact path="/about" component={About} />
-                <Route exact path="/contact-us" component={Contact} />
-                <Route exact path="/news" component={News} />
-                <Route exact path="/admin" component={Admin} />
-                <Route exact path="/signup-private" component={Signup} />
-                <Route exact path="/admin-dashboard" component={AdminDashboard} />
-                <Route exact path="/search" component={Search} />
-                <Route exact path="/contributing-writer" component={ContributingWriter} />
-                <Route exact path="/story-form" component={StoryForm} />
-                <Route exact path="/mailchimp-form" component={MailchimpForm} />
-                <Route exact path="/contact-form" component={ContactForm} />
-            </BrowserRouter>
+                <Switch>
+                    {/* <Route exact path="" component={Home} /> */}
+                    <Route exact path="/" component={Home} />
+                    <Route exact path="/stories" component={Stories} />
+                    <Route exact path="/stories/:id" component={Story} />
+                    <Route exact path="/about" component={About} />
+                    <Route exact path="/contact-us" component={Contact} />
+                    <Route exact path="/news" component={News} />
+                    <Route exact path="/admin" component={Admin} />
+                    <Route exact path="/signup-private" component={Signup} />
+                    <Route exact path="/admin-dashboard" component={AdminDashboard} />
+                    <Route exact path="/search" component={Search} />
+                    <Route exact path="/contributing-writer" component={ContributingWriter} />
+                    <Route exact path="/story-form" component={StoryForm} />
+                    <Route exact path="/mailchimp-form" component={MailchimpForm} />
+                    <Route exact path="/contact-form" component={ContactForm} />
+                </Switch>
+            </Router>
 
             <div className="ftrr">
                 <Footer />
