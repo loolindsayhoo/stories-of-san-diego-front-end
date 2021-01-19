@@ -23,7 +23,7 @@ function App() {
     return (
         <div className="App">
             {/* <div className="sharethis-inline-share-buttons">HERE</div> */}
-            <BrowserRouter>
+            <BrowserRouter basename={public.env.PUBLIC_URL} >
                 <div className="navbar">
                     <NavBar />
                 </div>
