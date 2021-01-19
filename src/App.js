@@ -49,11 +49,12 @@ function App() {
                     <Route exact path="/mailchimp-form" component={MailchimpForm} />
                     <Route exact path="/contact-form" component={ContactForm} />
                 </Switch>
+                <div className="ftrr">
+                    <Footer />
+                </div>
             </Router>
 
-            <div className="ftrr">
-                <Footer />
-            </div>
+            
 
         </div>
     );

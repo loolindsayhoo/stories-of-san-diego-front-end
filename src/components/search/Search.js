@@ -53,9 +53,6 @@ function Search() {
                         />
                         {/* {console.log("stories", story)} */}
                         <Link to={'/stories/' + story.id} story_id={story.id} >Read More</Link>
-                        {/* <a href="#" alt="Read More">
-                            Read More
-                        </a> */}
                     </div>
                     <div className="story-summary">
                         <h4>{story.summary}</h4>

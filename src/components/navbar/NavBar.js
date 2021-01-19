@@ -1,6 +1,6 @@
 import React from "react";
 import '../../css/navbar.css';
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import SOSDLogo from '../../css/SSD-full-01.svg'
 
 const link = {
@@ -16,7 +16,7 @@ export const NavBar = () => {
   return (
     <>
       <div className="navbar-header">
-        <a href="/"><img src={SOSDLogo} alt="SOSD logo" width="300"  /></a>
+        <Link to="/"><img src={SOSDLogo} alt="SOSD logo" width="300"  /></Link>
       </div>
       <div className="navbar-links">
         <ul className="nav">
